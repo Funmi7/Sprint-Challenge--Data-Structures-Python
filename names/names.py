@@ -27,7 +27,12 @@ for name_1 in names_1:
     names.insert(name_1)
 for name_2 in names_2:
     if names.contains(name_2):
-        duplicates.append(name_1)
+        duplicates.append(name_2)
+
+# first_name = set(names_1)
+# second_name = set(names_2)
+
+# duplicates = first_name.intersection(second_name)
 
 end_time = time.time()
 print (f"{len(duplicates)} duplicates:\n\n{', '.join(duplicates)}\n\n")
