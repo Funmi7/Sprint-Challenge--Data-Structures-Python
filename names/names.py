@@ -19,6 +19,8 @@ duplicates = []  # Return the list of duplicates in this data structure
 #         if name_1 == name_2:
 #             duplicates.append(name_1)
 
+# Initial runtime is 0(n^2) because it is a nested for loop.
+
 names = BinarySearchTree(names_1[0])
 
 for name_1 in names_1:
